@@ -661,3 +661,10 @@ gsap.to(".page7-cir-inner",{
   },
   backgroundColor : `#0a3bce91`,
 })
+
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  e.target.elements.name.value = '';
+  e.target.elements.email.value = '';
+  e.target.elements.message.value = '';
+});
