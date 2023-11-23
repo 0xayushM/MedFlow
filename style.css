@@ -2,31 +2,36 @@
     font-family: a;
     src: url(./assets/jost-variable.ttf);
 }
+
 @font-face {
     font-family: b;
     src: url(./assets/KFOlCnqEu92Fr1MmEU9fBBc4\ \(1\).ttf);
 }
+
 @font-face {
     font-family: c;
     src: url(./assets/KFOmCnqEu92Fr1Mu4mxK\ \(1\).ttf);
 }
-
 
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
+
 html,
 body {
     height: 100%;
     width: 100%;
+    background-color: #1137ca;
 }
+
 #main {
     position: relative;
     overflow: hidden;
     background-color: #1137ca;
 }
+
 #page1 {
     height: 100vh;
     width: 100vw;
@@ -38,6 +43,7 @@ body {
     width: 100%;
     object-fit: cover;
 }
+
 #page1>nav {
     display: flex;
     align-items: center;
@@ -47,6 +53,7 @@ body {
     height: 15vh;
     width: 100vw;
 }
+
 #page1>nav>img {
     width: 6%;
 }
@@ -75,7 +82,6 @@ body {
     height: 30vh;
     width: 50vw;
 }
-
 
 .bottom-page1>h1 {
     font-family: a;
@@ -523,6 +529,84 @@ hr {
         font-size: 6vw;
         max-width: 80%;
     }
+    #page2 {
+        justify-content: start;
+        padding: 40px 20px;
+    }
+    #page2>h1 {
+        font-size:6vw;
+        margin-bottom: 10px;
+    }
+    #cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card-1, .card-2, .card-3 {
+        margin-top: auto;
+    }
+    #card>h1 {
+        font-size: 5vw;
+    }
+    #card>h2 {
+        font-size: 4vw;
+    }
+    #page4>h2 {
+        font-size: 10vw;
+    }
+    #page4>h1 {
+        font-size: 6vw;
+    }
+    #page6>h2 {
+        font-size: 8vw;
+    }
+    #page6>h1 {
+        font-size: 5vw;
+    }
+    #page7-cards {
+        flex-direction: column;
+    }
+    #page7-card {
+        min-height: max-content;
+    }#page7-card>h1 {
+        font-size: 5vw;
+    }
+    #page7-card>h2 {
+        font-size: 3vw;
+    }
+    #page9 {
+        flex-direction: column-reverse;
+    }
+    .left {
+        width: 100%;
+    }
+    .left>img {
+        width: 100vw;
+        height: auto;
+    }
+    .right {
+        width: 100%;
+    }
+    .inputGroup label {
+        font-size: 3vw;
+    }
+    .inputGroup input,
+    .inputGroup textarea {
+        width: 100%;
+        left: 0;
+        font-size: 4vw;
+    }
+    .inputGroup .inputBar {
+        width: 100%;
+    }
+    .margin>button {
+        font-size: 5vw;
+    }
+    .inputGroup input:focus ~ label,
+  .inputGroup input:valid ~ label,
+  .inputGroup textarea:focus ~ label,
+  .inputGroup textarea:valid ~ label {
+    font-size: 4vw;
+  }
   }
   
   
