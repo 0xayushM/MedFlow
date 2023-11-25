@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MedFlow</title>
     <link rel="stylesheet" href="style.css" />
     <link
@@ -13,31 +13,88 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
     />
-</head>
-<body>
-    <div id="main">
-        <div id="page1">
-            <nav>
-                <img src="./assets/signature-logo.png" alt="" id="logo"/>
-                <div class="menu-wrap">
-                  <input type="checkbox" class="toggler">
-                  <div class="hamburger"><div></div></div>
-                  <div class="menu">
-                    <div>
-                      <div>
-                        <ul>
-                          <li><a href="/">Home</a></li>
-                          <li><a href="/about.html">About</a></li>
-                          <li><a href="/services.html">Services</a></li>
-                          <li><a href="/contact.html">Contact</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </nav>
+  </head>
+  <body>
+    <nav id="navbar">
+      <a href="/">
+        <img src="./assets/signature-logo.png" alt="" id="logo" />
+      </a>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        
+      </div>
+    </nav>
+
+    <div id="main" style="top: 40px;">
+      <div id="page2" class="about-page2">
+        <h1>Why Choose Our Hospital Management System CRM?</h1>
+        <div id="cards">
+          <div id="card" class="card-1">
+            <h1>Patient Management</h1>
+            <hr />
+            <h2>
+              Our system provides a centralized platform to efficiently manage
+              patient records, including registration, history, appointments,
+              and medical data, ensuring easy access for healthcare
+              professionals and staff.
+            </h2>
+          </div>
+          <div id="card" class="card-2">
+            <h1>Appointment Scheduling</h1>
+            <hr />
+            <h2>
+              A user-friendly interface that simplifies the process of
+              scheduling, rescheduling, and managing appointments, reducing
+              waiting times and optimizing the utilization of resources.
+            </h2>
+          </div>
+          <div id="card" class="card-3">
+            <h1>Doctor And Staff And Patient Management</h1>
+            <hr />
+            <h2>
+              Tools to manage doctor and staff schedules, performance, and
+              responsibilities, enabling efficient coordination among healthcare
+              professionals.
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div id="page4">
+        <h2>CRM Software has this features:</h2>
+        <h1>
+          Businesses vary in their operations, with unique needs that generic
+          solutions may not address. Many businesses underutilize their CRM,
+          impacting productivity and customer satisfaction. Implementing and
+          managing a CRM can be challenging, especially without IT expertise.
+          What works for one organization may not suit another.
+        </h1>
+      </div>
     </div>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>

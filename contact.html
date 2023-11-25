@@ -1,42 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MedFlow</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
-    />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedFlow</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css" />
 </head>
+
 <body>
-    <div id="main">
-        <div id="page1">
-            <nav>
-                <img src="./assets/signature-logo.png" alt="" id="logo"/>
-                <div class="menu-wrap">
-                  <input type="checkbox" class="toggler">
-                  <div class="hamburger"><div></div></div>
-                  <div class="menu">
-                    <div>
-                      <div>
-                        <ul>
-                          <li><a href="/">Home</a></li>
-                          <li><a href="/about.html">About</a></li>
-                          <li><a href="/services.html">Services</a></li>
-                          <li><a href="/contact.html">Contact</a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </nav>
+    <nav id="navbar">
+      <a href="/">
+        <img src="./assets/signature-logo.png" alt="" id="logo" />
+      </a>
+      <div class="menu-wrap">
+        <input type="checkbox" class="toggler">
+        <div class="hamburger">
+          <div></div>
         </div>
+        <div class="menu">
+          <div>
+            <div>
+              <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div id="page9">
+      <div class="left">
+        <img src="./assets/contact.jpg" alt="" />
+      </div>
+      <div class="right">
+        <div class="margin">
+          <div class="inputGroup">
+            <input type="text" required />
+            <span class="inputBar"></span>
+            <label>Name</label>
+          </div>
+
+          <div class="inputGroup">
+            <input type="text" required />
+            <span class="inputBar"></span>
+            <label>Email</label>
+          </div>
+
+          <div class="inputGroup">
+            <textarea type="textarea" required></textarea>
+            <span class="inputBar"></span>
+            <label>Message</label>
+          </div>
+
+          <button>Send</button>
+        </div>
+      </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+      integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollTrigger.min.js"
+      integrity="sha512-IHDCHrefnBT3vOCsvdkMvJF/MCPz/nBauQLzJkupa4Gn4tYg5a6VGyzIrjo6QAUy3We5HFOZUlkUpP0dkgE60A=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

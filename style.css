@@ -210,6 +210,16 @@ body {
     transition: color 0.4s ease;
   }
 
+#navbar {
+    position: fixed;
+    z-index: 100;
+}
+
+#navbar #logo {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
 #right-nav {
     display: flex;
     gap: 20px;
@@ -226,6 +236,7 @@ body {
     font-size:1.2em;
     letter-spacing: 1px;
 }
+
 
 .bottom-page1 {
     position: absolute;
@@ -273,6 +284,8 @@ body {
     font-family: b;
     font-size: 16px;
 }
+
+
 
 #page2 {
     height: 100vh;
