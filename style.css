@@ -71,7 +71,7 @@ body {
 
 .menu-wrap {
     position: fixed;
-    top: 30px;
+    top: 20px;
     right: 20px;
     z-index: 1;
   }
@@ -566,7 +566,7 @@ hr {
   .inputGroup input,
   .inputGroup textarea {
     display: block;
-    width: 480px;
+    width: 400px;
     border: none;
     border-bottom: 1px solid #a7a5a5;
     left: 25px;
@@ -595,7 +595,7 @@ hr {
   
   .inputGroup textarea {
     height: 100px;
-    width: 480px;
+    width: 400px;
     overflow: auto;
     resize: none;
   }
@@ -603,7 +603,7 @@ hr {
   .inputGroup .inputBar {
     position: relative;
     display: block;
-    width: 480px;
+    width: 400px;
   }
   
   .inputGroup .inputBar:before,
@@ -629,9 +629,9 @@ hr {
  .margin>button {
     background-color: white;
     border: none;
-    padding: 15px 0;
+    padding: 10px 0;
     margin: 0;
-    width: 290px;
+    width: 250px;
     color: #3c3c3c;
     text-transform: uppercase;
     font-family: Trebuchet MS;
@@ -677,7 +677,12 @@ hr {
       padding: 8px 15px;
       font-size: 0.9em;
     }
-    
+    .menu-wrap {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1;
+      }
     .bottom-page1 {
         width: 100%;
         left: 0;
@@ -759,7 +764,7 @@ hr {
     }
     .right {
         width: 100%;
-        margin-top: 20%;
+        margin-top: 30%;
     }
     .inputGroup label {
         font-size: 3vw;
