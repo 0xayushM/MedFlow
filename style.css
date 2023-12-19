@@ -255,7 +255,7 @@ body {
 }
 
 .bottom-page1>h1>span {
-    color: #bbc8eb;
+    color: #ffffff;
 }
 
 .bottom-page1-inner {
@@ -288,7 +288,7 @@ body {
 
 
 #page2 {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     background-color: #0a3cce;
     position: relative;
